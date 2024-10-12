@@ -1,0 +1,374 @@
+@font-face {
+    font-family: nos;
+    src: url(fonts/MemphisRiver.otf);
+}
+
+
+
+:root {
+    --my-color: black;
+    --my-font: 0;
+    --my-color2: white;
+  }
+
+  
+.container {
+    display: flex;
+    background-color: #CCCCFF;
+
+    justify-content: space-around;
+    margin: var(--my-font);
+    padding: var(--my-font);
+    border-bottom: 1px solid var(--my-color);
+    
+}
+
+.container-1 {
+    cursor: pointer;
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+    border: 3px solid black;
+    flex-shrink: 0;
+    transition: transform 1s;
+    font-size: 25px;
+
+
+}
+
+.container-2 {
+    cursor: pointer;
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+    border: 3px solid black;
+    flex-shrink: 0;
+    transition: transform 1s;
+    font-size: 25px;
+
+
+}
+
+.container-3 {
+    cursor: pointer;
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+    border: 3px solid black;
+    flex-shrink: 0;
+    transition: transform 1s;
+    font-size: 25px;
+
+}
+
+.container-4 {
+    cursor: pointer;
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+    border: 3px solid black;
+    flex-shrink: 0;
+    transition: transform 1s;
+    font-size: 25px;
+
+}
+
+
+
+
+.container-1:hover {
+    
+    animation: homie 1s ease-in;
+    background-color: var(--my-color2);
+
+}
+
+.container-2:hover {
+    
+    animation: homie 1s ease-in;
+    background-color: var(--my-color2);
+
+}
+
+.container-3:hover {
+    
+    animation: homie 1s ease-in;
+    background-color: var(--my-color2);
+
+}
+
+.container-4:hover {
+    
+    animation: homie 1s ease-in;
+    background-color: var(--my-color2);
+
+}
+
+@keyframes homie {
+    100% {
+        transform: scale(1.1);
+        
+        
+    }
+    
+}
+
+
+
+fieldset {
+    border: 3px solid black;
+}
+body {
+    padding: var(--my-font);
+    margin: var(--my-font);
+    text-align: center;
+    background-image: url("thesky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: nos, Arial, Helvetica, sans-serif;
+    font-size: 300%;
+    text-align: center;
+    border: 3px solid black;
+}
+
+h2 {
+    
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+footer {
+    font-size: 150%;
+    text-align: center;
+    
+    border: 0.5px solid var(--my-color);
+    color: black;
+    border: 3px solid black;
+   
+}
+
+@media only screen and (max-width: 1220px) {
+   
+    
+  
+    
+    body {
+        
+        padding-bottom: 200px;
+    }
+
+    
+   
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        display: flex;
+    
+        justify-content: space-around;
+        margin: var(--my-font);
+        padding: var(--my-font);
+        border-bottom: 1px solid var(--my-color);
+        
+    }
+    
+    .container-1 {
+        cursor: pointer;
+        padding: 5px 0px 0px;
+        width: 150px;
+        margin: 5px;
+        border: 3px solid black;
+        flex-shrink: 0;
+        transition: transform 1s;
+        font-size: 20px;
+
+        
+    
+    }
+    
+    .container-2 {
+        cursor: pointer;
+        padding: 5px 0px 0px;
+        font-size: 20px;
+        width: 150px;
+        margin: 5px;
+        border: 3px solid black;
+        flex-shrink: 0;
+        transition: transform 1s;
+       
+    
+    }
+    
+    .container-3 {
+        cursor: pointer;
+        padding: 5px 0px 0px;
+        width: 150px;
+        margin: 5px;
+        border: 3px solid black;
+        flex-shrink: 0;
+        transition: transform 1s;
+        font-size: 20px;
+
+    }
+    
+    .container-4 {
+        cursor: pointer;
+        padding: 5px 0px 0px;
+        width: 150px;
+        margin: 5px;
+        border: 3px solid black;
+        flex-shrink: 0;
+        transition: transform 1s;
+        font-size: 20px;
+
+    }
+
+    body {
+        padding-bottom: 400px;
+    }
+   
+}
+
+@media only screen and (max-width: 650px) {
+    .container {
+        display: flex;
+    
+        justify-content: space-around;
+        margin: var(--my-font);
+        padding: var(--my-font);
+        border-bottom: 1px solid var(--my-color);
+        
+    }
+    
+    .container-1 {
+        cursor: pointer;
+        padding: 2px 0px 0px;
+        width: 100px;
+        margin: 2px;
+        border: 3px solid black;
+        flex-shrink: 0;
+        transition: transform 1s;
+        font-size: 10px;
+
+        
+    
+    }
+    
+    .container-2 {
+        cursor: pointer;
+        padding: 2px 0px 0px;
+        width: 100px;
+        margin: 2px;
+        border: 3px solid black;
+        flex-shrink: 0;
+        transition: transform 1s;
+        font-size: 10px;
+
+    
+    }
+    
+    .container-3 {
+        cursor: pointer;
+        padding: 2px 0px 0px;
+        width: 100px;
+        margin: 2px;
+        border: 3px solid black;
+        flex-shrink: 0;
+        transition: transform 1s;
+        font-size: 10px;
+
+    }
+    
+    .container-4 {
+        cursor: pointer;
+        padding: 2px 0px 0px;
+        width: 100px;
+        margin: 2px;
+        border: 3px solid black;
+        flex-shrink: 0;
+        transition: transform 1s;
+        font-size: 10px;
+
+    }
+
+    body {
+        padding-bottom: 500px;
+    }
+   
+}
+
+@media only screen and (max-width: 430px) {
+    .container {
+        display: flex;
+    
+        justify-content: space-around;
+        margin: var(--my-font);
+        padding: var(--my-font);
+        border-bottom: 1px solid var(--my-color);
+        
+    }
+    
+    .container-1 {
+        cursor: pointer;
+        padding: 2px 0px 0px;
+        width: 50px;
+        margin: 2px;
+        border: 3px solid black;
+        flex-shrink: 0;
+        transition: transform 1s;
+        font-size: 8px;
+
+        
+    
+    }
+    
+    .container-2 {
+        cursor: pointer;
+        padding: 2px 0px 0px;
+        width: 50px;
+        margin: 2px;
+        border: 3px solid black;
+        flex-shrink: 0;
+        transition: transform 1s;
+        font-size: 8px;
+
+    
+    }
+    
+    .container-3 {
+        cursor: pointer;
+        padding: 2px 0px 0px;
+        width: 50px;
+        margin: 2px;
+        border: 3px solid black;
+        flex-shrink: 0;
+        transition: transform 1s;
+        font-size: 8px;
+
+    }
+    
+    .container-4 {
+        cursor: pointer;
+        padding: 2px 0px 0px;
+        width: 50px;
+        margin: 2px;
+        border: 3px solid black;
+        flex-shrink: 0;
+        transition: transform 1s;
+        font-size: 8px;
+
+    }
+
+    body {
+        padding-bottom: 400px;
+    }
+   
+}
+
+
+
